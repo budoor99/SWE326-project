@@ -198,6 +198,10 @@ public class CarSimulator extends Canvas implements Runnable, CarSpeed{
         return speed;
     }
 
+    public synchronized int getDistance() {
+        return distance;
+    }
+
     public synchronized boolean isEngineRunning() {
         return ignition;
     }

@@ -84,4 +84,13 @@ public class CruiseDisplay extends Canvas {
         recorded=speed;
         repaint();
     }
+
+    public boolean isCruiseOn() {
+        return cruiseOn;
+    }
+
+    public int getRecordedSpeed() {
+        return recorded;
+    }
+
 }
